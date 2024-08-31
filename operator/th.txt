@@ -1,0 +1,11 @@
+There are three types of operator 
+
+1. unary operator 
+    - it will required one operand
+2. binary operator
+    - it will required two operand
+3. Ternary operator
+    - it will required three operands
+
+
+* 
