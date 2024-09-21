@@ -50,12 +50,13 @@
 // var x = str.endsWith("td.")
 // console.log(x);
 
-var str = "        Royal technosoft pvt ltd.        ";
-console.log(str);
-console.log(str.length);
+// var str = "        Royal technosoft pvt ltd.        ";
 
-var x = str.trimStart()
-console.log(x);
+// console.log(str);
+// console.log(str.length);
+
+// var x = str.trimStart()
+// console.log(x);
 
 
 // console.log(str.trim().length);
@@ -115,6 +116,19 @@ console.log(x);
 // ex : aashiqsingh
 
 // @aashiqsingh11 
+
+
+// var userName = "harshprajapati"
+
+// var ans = "@" + userName + userName.length;
+// console.log(ans);
+
+
+var fname = "aashiq";
+
+
+var output = fname.split("").reverse().join("")
+console.log(output);
 
 
 

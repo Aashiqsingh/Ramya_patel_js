@@ -1,0 +1,11 @@
+Function -- code reusablity 
+
+Function -- Function
+
+return -- return 
+
+there are four types of functions
+1. without argument without return types
+2. with argument without return types
+3. without argument with return types
+4. with argument with return types
