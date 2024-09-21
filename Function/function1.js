@@ -48,3 +48,4 @@ function mul(x,y){
 
 var x = mul(3,4)
 console.log("multiply ....",x);
+

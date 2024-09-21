@@ -1,0 +1,8 @@
+// task :
+// 1. area of circle -- 
+// 2. area of square  
+// 3. area of rectangle
+// 4. area of triangle
+// 4. reverse number 
+// 5. prime number 
+// 6. even or odd number 
