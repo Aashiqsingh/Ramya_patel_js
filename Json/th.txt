@@ -1,0 +1,16 @@
+Json -- Javascript object notation 
+
+data -- send or receive data
+
+
+json format 
+key : value 
+
+var student = {
+    roll : 1,
+    name : "ramya",
+    std : "12th",
+    email:"ramya@gmail.com",
+    mobile: 723896870
+}
+
