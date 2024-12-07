@@ -8,3 +8,6 @@
 // 6. even or odd number 
 
 
+
+1 . find minimum value of an array .
+2 . find maximum length of value  
