@@ -6,3 +6,5 @@
 // 4. reverse number 
 // 5. prime number 
 // 6. even or odd number 
+
+
