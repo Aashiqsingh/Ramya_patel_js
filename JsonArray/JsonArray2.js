@@ -44,3 +44,31 @@ var products = [
 
     }
 ]
+
+// var x = products.reduce((sum,pro)=>{
+//     return sum + pro.price;
+// },0)
+// console.log(x);
+
+var x = products.reduce((sum,pro)=> sum + pro.price,0);
+console.log(x);
+
+
+
+
+
+// var sum = 0;
+// for(let i=0;i<products.length;i++){
+
+//     sum += products[i].price;
+    
+// }
+// console.log(sum);
+
+// reduce 
+
+
+
+
+// var x = products.filter(product => product.category === "Mobile"); 
+// console.log(x);
