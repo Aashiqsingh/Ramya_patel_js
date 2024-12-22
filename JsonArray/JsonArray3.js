@@ -63,10 +63,34 @@ var company = [
             }
         ]
     }
+
+
 ]
 
+const result = company.map(comp => comp.employees.filter(emp => emp.salary > 100000))
+console.log(result);
 
-Task :
+
+// var count = company.find((c) => c.name === "google").employees.length; 
+// console.log(count);
+
+
+// var totalSalary = company.find((comp) => comp.name === "facebook").employees.reduce((sum, emp) => sum + emp.salary, 0);
+// console.log(totalSalary);
+
+
+// var x = company.find((comp)=> comp.employees.find((emp)=> emp.name === "rajvi")).name
+// console.log(x);
+
+// var x = company.filter((comp)=> comp.employees.find((emp)=> emp.name === "rajvi")).map((emp)=> emp.name)
+// console.log(x);
+
+
+// console.log(company);
+
+
+
+// Task :
 // 1 . Google company : HR 
 // 2. company provide total salary 
 // 3. facebook company have child 
@@ -76,8 +100,8 @@ Task :
 
 
 
-var x = company.find((comp)=> comp.name === "facebook").employees.filter((emp)=> emp.gender === "female")
-console.log(x);
+// var x = company.find((comp)=> comp.name === "facebook").employees.filter((emp)=> emp.gender === "female")
+// console.log(x);
 
 
 
