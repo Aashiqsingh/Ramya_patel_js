@@ -115,3 +115,60 @@ var company = [
       ],
     }
   ]
+
+
+  // var position = company.find((comp)=> comp.employees.find((emp)=> emp.name ==="Emily Davis")).employees.find((emp)=> emp.name ==="Emily Davis").position
+  // console.log(position);
+  
+
+
+  // var Position = company.map(comp => comp.employees).find(employees => employees.find(emp => emp.name === "Emily Davis")).find(emp => emp.name === "Emily Davis").position;
+  // console.log(Position);
+
+
+  // var empl = company.map(comp => comp.employees.filter(emp => emp.salary > 80000).map(emp => emp.name));
+  // console.log(empl);
+
+
+// var x = company.map((comp)=>{
+//   return comp.companyname
+// })
+// console.log(x);
+
+
+//   var companyNames = company.map(comp => comp.companyname)
+//   console.log("Company Names:", companyNames);
+
+
+// List all company names.
+// Extract and display only the companyName fields from the JSON array.
+
+// Find employees earning more than $80,000.
+// Search through all employees arrays and list employees with a salary greater than 80,000.
+
+// Count the total number of employees in all companies.
+// Count the total number of employee objects across all companies.
+
+// Find the position of an employee named "Emily Davis".
+// Search for "Emily Davis" in the employees array and display her position.
+
+
+// -------------------HOMEWORK---------------------------------------
+
+// List all unique positions held by employees.
+// Extract and list all unique values from the position fields across all employees.
+
+// Find which company "Liam Wilson" works for.
+// Search for "Liam Wilson" in the employees arrays and display the companyName he belongs to.
+
+// Calculate the average salary of employees in "Tech Solutions".
+// Sum up the salary values of employees in "Tech Solutions" and divide by the number of employees in that company.
+
+// Find employees who are older than 30.
+// Search through all employees arrays for employees with an age greater than 30 and list their details.
+
+// Find the youngest employee in the dataset.
+// Identify the employee with the smallest age value across all companies.
+
+// Count how many employees have an email domain of "datadynamics.com".
+// Check the email field of all employees and count how many contain "datadynamics.com" as the domain.
