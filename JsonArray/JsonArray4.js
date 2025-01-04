@@ -117,6 +117,46 @@ var company = [
   ]
 
 
+
+var x = company.reduce((count,comp)=>{
+  return count + comp.employees.find((emp)=> emp.email.includes("datadynamics.com").employees.length)
+},0);
+
+console.log(x);
+
+
+
+// var age = company.map((comp)=> comp.employees.filter((emp)=> emp.age > 30))
+// console.log(age);
+
+
+// var x = company.find((comp)=> comp.companyname === "Tech Solutions").employees.reduce((sum,emp)=> sum + emp.salary/2,0)
+// console.log(x);
+
+
+
+
+
+  // company.map((comp)=> comp.employees.reduce((sum,emp)=> sum + emp.salary,0))
+//   var x = company.map((comp)=>{
+//     return comp.employees.reduce((sum, emp)=>{
+//       return sum + emp.salary;
+//     },0)
+//   })
+// console.log(x);
+
+
+
+
+
+  // var findcompany = company.find(c => c.employees.find(e => e.name === "Liam Wilson")).companyname;
+  // console.log(findcompany);
+
+
+  // var x = company.map((comp)=> comp.employees.map((emp)=> emp.position))
+  // console.log(x);
+  
+
   // var position = company.find((comp)=> comp.employees.find((emp)=> emp.name ==="Emily Davis")).employees.find((emp)=> emp.name ==="Emily Davis").position
   // console.log(position);
   
