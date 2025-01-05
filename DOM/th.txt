@@ -1,0 +1,15 @@
+DOM -- > DOCUMENT OBJECT MODEL 
+
+JavaScript :- to manipulate the dom(document object model)
+
+
+identify
+1 . id : [unique] --- > 
+2. class [multiple , duplicate]
+3. tagName [multiple , duplicate]]
+4. name [multiple , duplicate]
+5. querrySelector 
+
+
+Event :
+1. onclick
