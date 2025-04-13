@@ -13,12 +13,17 @@ prev.addEventListener("click",()=>{
 
     img.src = "../Image/" + images[currentIndex]
     
-})
 
-next.addEventListener("click",()=>{
-                        // 2 + 1 % 5
-    currentIndex = (currentIndex + 1) % images.length
-    console.log(currentIndex);
-    img.src = "../Image/" + images[currentIndex]
     
 })
+
+
+
+
+// next.addEventListener("click",()=>{
+//                         // 2 + 1 % 5
+//     currentIndex = (currentIndex + 1) % images.length
+//     console.log(currentIndex);
+//     img.src = "../Image/" + images[currentIndex]
+    
+// })
