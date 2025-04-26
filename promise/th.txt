@@ -1,0 +1,37 @@
+Promise --> success , failure ---> pending
+
+
+promise -- class  
+
+promise have two arg --> resolve , reject 
+
+
+
+There are two ways .
+1. sync 
+    - block sync 
+        - then catch
+    - function sync 
+        - async await
+2. non-sync 
+
+
+----------------------------------------------------
+non - sync 
+
+print(Starting fetching data)
+
+print(##############################) -- 5 min 
+
+print("Ending fetching data)
+
+
+-------------------------------------------------
+sync 
+
+print(Starting fetching data)
+
+print(##############################) -- 5 min 
+
+print("Ending fetching data)
+
