@@ -1,3 +1,5 @@
+
+document.getElementById('loader').style.display = 'block';
 const getData = ()=>{
 
     return promise = new Promise((resolve,reject)=>{
@@ -6,6 +8,7 @@ const getData = ()=>{
                 message:"Data fetched succeffullyy..",
                 status:200
             })
+            document.getElementById('loader').style.display = 'none';
         },4000)
     })
 
