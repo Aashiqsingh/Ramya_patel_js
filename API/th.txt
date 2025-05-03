@@ -1,0 +1,16 @@
+API -- Application programming interface 
+
+
+api -- json 
+
+
+fetch()
+
+
+
+
+Types of api :
+1. get -- 
+2. post -- 
+3. delete -- 
+4. put -- update
