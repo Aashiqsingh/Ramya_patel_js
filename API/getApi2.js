@@ -22,6 +22,30 @@ const getData = async () => {
         let emailTd = document.createElement("td")
         let passwordTd = document.createElement("td")
         let isActiveTd = document.createElement("td")
+        let actionTd = document.createElement("td")
+        let btnTd = document.createElement("button")
+        btnTd.innerHTML = "DELETE";
+        btnTd.setAttribute("class","btn btn-danger")
+        btnTd.addEventListener("click",async()=>{
+            // alert(res.data[i]._id)
+
+            const response = fetch("https://node5.onrender.com/user/user/"+res.data[i]._id,{
+                method:"DELETE"
+            })
+            console.log(response);
+            response.then((res)=>{
+                console.log(res);
+                if(res.status === 204)
+                {
+                    alert("Deleted Successfully")
+                    // getData()
+                    tr.remove()
+                }
+            })
+            
+            
+            
+        })
 
         idTd.innerHTML = res.data[i]._id
         nameTd.innerHTML = res.data[i].name
@@ -37,5 +61,7 @@ const getData = async () => {
         tr.appendChild(emailTd)
         tr.appendChild(passwordTd)
         tr.appendChild(isActiveTd)
+        tr.appendChild(actionTd)
+        actionTd.appendChild(btnTd)
     }
 }
